@@ -490,12 +490,11 @@ else
 
     -- Read commands and execute them
     local tCommandHistory = {}
-    -- user = 'user' -- For when I implement users :)
     while not bExit do
         term.redirect( parentTerm )
         term.setBackgroundColor( bgColour )
         term.setTextColour( promptColour )
-        write( "user@" .. os.getComputerLabel() ..": " .. shell.dir() .. "$ " )
+        write( _G.user.."@" .. os.getComputerLabel() ..": " .. shell.dir() .. "$ " )
         term.setTextColour( textColour )
 
 
