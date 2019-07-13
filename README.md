@@ -6,7 +6,7 @@ Lua scripting system.
 
 I have copied many of the default CraftOS scripts, as they serve their purpose just fine. However, many of them have been renamed and otherwise edited slightly (to more greatly resemble Linux commands) by me.
 
-I recommend installing this on a fresh Advanced Computer (Advanced Pocket Computers will be directly supported in a later update, and OC Linux should work on them now). However, it may work on standard Computers and Pocket Computers as well.
+I have only gotten OC Linux to work on a fresh Advanced Computer. On a standard computer, it does not load /bin/sh, and on pocket computers of both types (for me, at least), GitGet freezes at 95%.
 
 To install, simply run `pastebin run wMhFGDAr` on any computer.
 
