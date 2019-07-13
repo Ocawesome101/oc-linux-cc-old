@@ -6,12 +6,12 @@ Lua scripting system.
 
 I have copied many of the default CraftOS scripts, as they serve their purpose just fine. However, many of them have been renamed and otherwise edited slightly (to more greatly resemble Linux commands) by me.
 
-I have only gotten OC Linux to work on a fresh Advanced Computer. On a standard computer, it does not load /bin/sh, and on pocket computers of both types (for me, at least), GitGet freezes at 95%.
+OC Linux should run on any computer (standard, advanced, command, or either type of pocket). However, for best results, I recommend running it on a fresh Advanced or Command Computer.
 
 To install, simply run `pastebin run wMhFGDAr` on any computer.
 
 Be warned, there are several caveats:
-  - The system overwrites os.version() on startup, though this can be changed
+  - The system overwrites os.version() on startup, though this can be changed by editing /startup
   - This is by no means a perfect copy of Linux (there are limitations!)
   - This is STILL IN DEVELOPMENT.
   - For authenticity's sake, the default PATH is changed on every boot to completely REMOVE all /rom/* entries. This may break some programs.
