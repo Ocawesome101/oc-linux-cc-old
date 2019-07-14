@@ -495,7 +495,7 @@ else
         term.redirect( parentTerm )
         term.setBackgroundColor( bgColour )
         term.setTextColour( promptColour )
-        write( user.."@" .. _G.label ..": " .. shell.dir() .. "$ " )
+        write( user.."@" .. os.getComputerLabel() ..": " .. shell.dir() .. "$ " )
         term.setTextColour( textColour )
 
 
