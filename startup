@@ -5,7 +5,7 @@ sleep(0.5)
 os.loadAPI('/lib/log')
 log.info('Started logging service')
 log.info('Changing CraftOS shell\'s PATH')
-shell.setPath('.:/usr/bin/CraftOS:/usr/bin/:/usr/lib:/sbin:/bin:/bin/bash.d:/etc')
+shell.setPath('.:/usr/bin/CraftOS:/usr/bin/:/sbin:/bin:/bin/bash.d')
 if os.version() ~= 'CraftOS 1.8' then
  log.warn('Running on unsupported CraftOS version!')
  log.warn('This should not affect things too much, but should be kept in mind.')
