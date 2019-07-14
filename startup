@@ -30,8 +30,8 @@ log.info(msg..'BG')
 shell.clearAlias('bg')
 log.info(msg..'FG')
 shell.clearAlias('fg')
-if os.getComputerLabel == nil then -- In case a label has not been set
- _G.label = 'linux_'..os.computerID()
+if os.getComputerLabel == nil then -- In case a label has not been set, should not happen
+ os.setComputerLabel('linux')
 end
 log.info('Trying to change os.version() to \'OC Linux 0.5.0\' (old is '..os.version()..')')
 ver_old = os.version()
@@ -47,15 +47,16 @@ end
 log.info('Password/multiuser not yet implemented; auto-logging in as user \'user\'')
 shell.setDir('/home/user')
 log.info('Starting /bin/sh')
-sleep(1)
+
 -- The next four lines don't work yet
 --bLogin = false
 --while bLogin ~= true do
 -- bLogin = shell.run('login')
 --end
+
 shell.run('sh')
 log.info('Stopped /bin/sh')
 log.info('Stopping logging service')
 log.info('Reached target Shutdown')
-sleep(1)
+sleep(0.3)
 os.shutdown()
