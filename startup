@@ -31,7 +31,7 @@ shell.clearAlias('bg')
 log.info(msg..'FG')
 shell.clearAlias('fg')
 if os.getComputerLabel == nil then -- In case a label has not been set
- os.setComputerLabel('linux_'..os.getComputerID())
+ _G.label = 'linux_'..os.computerID()
 end
 log.info('Trying to change os.version() to \'OC Linux 0.5.0\' (old is '..os.version()..')')
 ver_old = os.version()
