@@ -1,5 +1,1 @@
-THis is a 
-
-test
-
-of CAAAAAAAAATTTTTTTT
+-- This is just here to make sure that /home/user exists
