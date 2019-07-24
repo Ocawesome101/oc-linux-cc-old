@@ -29,6 +29,6 @@ originality, to replace the offending code, or to open source their project.
 
 ### Footnotes
 
-* Such as violating terms C, D, F, or G
+\* Such as violating terms C, D, F, or G
 
 ** Supported systems are: CCEmuX build 88ba9e7a and ComputerCraft's CraftOS 1.8
