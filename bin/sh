@@ -490,12 +490,11 @@ else
 
     -- Read commands and execute them
     local tCommandHistory = {}
-    local user = 'user' -- You can change this, but it won't be around once separate user accounts are implemented!
     while not bExit do
         term.redirect( parentTerm )
         term.setBackgroundColor( bgColour )
         term.setTextColour( promptColour )
-        write( user.."@" .. os.getComputerLabel() ..": " .. shell.dir() .. "$ " )
+        write( "root@" .. (os.getComputerLabel() or "oc-linux") ..": " .. shell.dir() .. "# " )
         term.setTextColour( textColour )
 
 
