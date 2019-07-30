@@ -17,7 +17,6 @@ Things you should know:
   - For authenticity's sake, the default PATH is changed on every boot to completely REMOVE all /rom/* entries. This may break some programs.
   - I have tried to make sure that all of the default CraftOS APIs are still available, though I make no guarantees as to whether things will stay as they are.
   - As of release 0.5.0, /boot, /var, and /dev are unused. However, they will be in a future update!
-  - As of release 0.5.0, there is no user account system implemented. This is something that is fairly high priority for me.
   - As of release 0.5.0, there is no package manager system in any way, shape, or form. However, I plan to add a package manager later.
 
  Some guidelines to follow while coding:
