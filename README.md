@@ -8,7 +8,7 @@ I have copied many of the default CraftOS scripts, as they serve their purpose j
 
 OC Linux should run on any computer (standard, advanced, command, or either type of pocket). However, for best results, I recommend running it on a fresh Advanced or Command Computer.
 
-To install, simply run `pastebin run wMhFGDAr` on any computer. Append `dev` to the end to get the latest developer version (which may be unstable!).
+To install, simply run `pastebin run wMhFGDAr` on any computer.
 
 Things you should know:
   - The system overwrites os.version() on startup, though this can be changed by editing /startup
