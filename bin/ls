@@ -24,7 +24,7 @@ for n, sItem in pairs( tAll ) do
     if bShowHidden or string.sub( sItem, 1, 1 ) ~= "." then
         local sPath = fs.combine( sDir, sItem )
         if fs.isDir( sPath ) then
-            if sPath ~= 'rom' and shell.dir() == ('' or '/') then
+            if sPath ~= 'rom' then
                 table.insert( tDirs, sItem )
             end
         else
