@@ -1,6 +1,6 @@
-# oc-linux-cc
+# oc-linux-cc (OLD)
 A Linux-like system for ComputerCraft's CraftOS.
-
+# -- THIS IS AN OLD / UNSUPPORTED VERSION --
 This is my best attempt at creating a Linux-like shell written entirely in Lua. I have based it on ComputerCraft's CraftOS and
 Lua scripting system.
 
